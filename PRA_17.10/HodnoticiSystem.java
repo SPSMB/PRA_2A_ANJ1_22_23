@@ -3,6 +3,16 @@ package com.company;
 import java.util.Scanner;
 
 public class HodnoticiSystem {
+    
+    /*
+    Vytvořte program, kde uživatel zadá číslo od 0 do 100 (úspěšnost) a program následně vypíše známku podle dosažené úspěšnosti.
+    Hodnocení:
+    100 - 80: 1
+    79 - 60: 2
+    59 - 40: 3
+    39 - 20: 4
+    19 - 0: 5
+    */
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); //Scanner, získáváme vstup z konzole
